@@ -4,7 +4,7 @@
 
 ### DGLab Native ImGui 控制器
 
-**纯 C++ Native 实现 · 零 Java 依赖 · WebSocket 协议直连**
+** C++ Native 实现 · 零 Java 依赖 · WebSocket 协议 **
 
 **Author:** 全世界最最最最可爱的小夜酱喵
 
