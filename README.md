@@ -10,15 +10,9 @@
 
 ![Platform](https://img.shields.io/badge/Platform-Android%20NDK-3DDC84?style=flat-square&logo=android)
 ![C++](https://img.shields.io/badge/C++-17-00599C?style=flat-square&logo=cplusplus)
-![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
-
-[Native郊狼对接框架]
+![License](https://img.shields.io/badge/License-GPL--3.0-blue?style=flat-square)
 
 基于 [DG_Lab] 的WebSocket 通信协议，移植为 Android Native ImGui 控制面板喵。
-
-可通过监控游戏事件触发DG_LAB终端输出。
-
-建议在专业指导下配置高强度刺激参数。
 
 </div>
 
@@ -71,7 +65,7 @@
 |:---:|------|------|
 | 1 | 启动 WebSocket 服务器 | 监听本地端口 `8877` |
 | 2 | 生成二维码 | 包含 `ws://IP:PORT/固定客户端ID` |
-| 3 | App 扫码连接 | DGLab3.X App 作为客户端连接过来 |
+| 3 | App 扫码连接 | DGLab App 作为客户端连接过来 |
 | 4 | 发送 bind 握手 | 服务器主动发 `{"type":"bind","clientId":"<UUID>",...}` |
 | 5 | App 回复验证 | `{"type":"bind","message":"DGLAB",...}` |
 | 6 | 确认绑定 | `{"message":"200","statusCode":200}` |
@@ -235,14 +229,11 @@ ndk-build
 
 ## 🎮 使用方法
 
-使用前请确认 ** [DG_LAB App] ** 为3.x版本。
-
-1. 启动程序，勾选你项目主菜单中的 **「DGLab控制器」**
-2. 在 DGLab imgui 面板中点击 **「启动服务器」**
+1. 启动程序，勾选主菜单中的 **「DGLab控制器」**
+2. 在 DGLab 面板中点击 **「启动服务器」**
 3. 用 DGLab App 扫描屏幕上显示的 **二维码**
 4. 等待 App 连接并自动完成绑定
 5. 通过滑块控制 **A/B 通道强度**，选择并发送 **波形**
-
 
 ---
 
