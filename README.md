@@ -10,7 +10,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-Android%20NDK-3DDC84?style=flat-square&logo=android)
 ![C++](https://img.shields.io/badge/C++-17-00599C?style=flat-square&logo=cplusplus)
-![License](https://img.shields.io/badge/License-GPL--3.0-blue?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
 
 基于 [DG_Lab] 的WebSocket 通信协议，移植为 Android Native ImGui 控制面板喵。
 
