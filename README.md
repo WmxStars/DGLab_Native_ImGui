@@ -241,7 +241,7 @@ ndk-build
 
 | 项目 | 链接 | 说明 |
 |------|------|------|
-| CaiJi-ikun/DG_LAB | [GitHub](https://github.com/CaiJi-ikun/DG_LAB) | 参考实现 |
+| CaiJi-ikun/DG_LAB | [GitHub](https://github.com/CaiJi-ikun/DG_LAB) | 原项目 |
 | DG-LAB-OPENSOURCE | [GitHub](https://github.com/DG-LAB-OPENSOURCE/DG-LAB-OPENSOURCE) | 官方开源项目 |
 
 ---
