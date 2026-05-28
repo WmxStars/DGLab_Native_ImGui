@@ -10,7 +10,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-Android%20NDK-3DDC84?style=flat-square&logo=android)
 ![C++](https://img.shields.io/badge/C++-17-00599C?style=flat-square&logo=cplusplus)
-![License](https://img.shields.io/badge/License-GPL--3.0-blue?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT--3.0-blue?style=flat-square)
 
 [Native郊狼对接框架]
 
