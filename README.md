@@ -71,7 +71,7 @@
 |:---:|------|------|
 | 1 | 启动 WebSocket 服务器 | 监听本地端口 `8877` |
 | 2 | 生成二维码 | 包含 `ws://IP:PORT/固定客户端ID` |
-| 3 | App 扫码连接 | DGLab App 作为客户端连接过来 |
+| 3 | App 扫码连接 | DGLab3.X App 作为客户端连接过来 |
 | 4 | 发送 bind 握手 | 服务器主动发 `{"type":"bind","clientId":"<UUID>",...}` |
 | 5 | App 回复验证 | `{"type":"bind","message":"DGLAB",...}` |
 | 6 | 确认绑定 | `{"message":"200","statusCode":200}` |
@@ -234,6 +234,8 @@ ndk-build
 ---
 
 ## 🎮 使用方法
+
+使用前请确认DG_LAB App为3.x版本。
 
 1. 启动程序，勾选主菜单中的 **「DGLab控制器」**
 2. 在 DGLab 面板中点击 **「启动服务器」**
