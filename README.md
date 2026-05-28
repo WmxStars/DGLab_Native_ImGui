@@ -16,6 +16,8 @@
 
 基于 [DG_Lab] 的WebSocket 通信协议，移植为 Android Native ImGui 控制面板喵。
 
+可通过监控游戏事件触发DG_LAB终端输出。
+
 建议在专业指导下配置高强度刺激参数。
 
 </div>
