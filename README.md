@@ -12,7 +12,7 @@
 ![C++](https://img.shields.io/badge/C++-17-00599C?style=flat-square&logo=cplusplus)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
 
-基于 DG_LAB WebSocket 协议，通过监控游戏事件触发设备反馈。
+基于 DG_LAB WebSocket 协议，通过监控游戏事件触发设备物理反馈。
 
 </div>
 
