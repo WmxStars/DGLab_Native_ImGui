@@ -123,10 +123,10 @@ dglab.sendRaw("{\"type\":\"msg\",\"message\":\"custom\"}");
 ### 游戏事件快捷方法
 
 ```cpp
-// 受伤反馈：按失血量自动算强度（maxStrength 上限，默认 30）
+// 受伤反馈：按失血量自动算强度（maxStrength 上限，默认 30 高强度竞技推荐5-15）
 dglab.triggerHit(lostHp, 30);
 
-// 死亡反馈：清空 + 高强度（默认 80）
+// 死亡反馈：清空 + 高强度（默认 80 推荐45）
 dglab.triggerDeath(80);
 ```
 
