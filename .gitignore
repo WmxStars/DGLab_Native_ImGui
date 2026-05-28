@@ -1,0 +1,14 @@
+# 第三方头文件库（太大不放进仓库，用户自行下载放到 include/ 目录）
+include/
+
+# 编译产物
+*.o
+*.so
+*.a
+obj/
+libs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
