@@ -12,7 +12,11 @@
 ![C++](https://img.shields.io/badge/C++-17-00599C?style=flat-square&logo=cplusplus)
 ![License](https://img.shields.io/badge/License-GPL--3.0-blue?style=flat-square)
 
+[Native郊狼对接框架]
+
 基于 [DG_Lab] 的WebSocket 通信协议，移植为 Android Native ImGui 控制面板喵。
+
+建议在专业指导下配置高强度刺激参数。
 
 </div>
 
